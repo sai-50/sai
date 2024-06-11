@@ -1,0 +1,19 @@
+#include <Arduino.h>
+
+// Define the LED pin
+const int ledPin = 18;
+
+void setup() {
+  // Set the LED pin as output
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // Turn the LED on
+  digitalWrite(ledPin, HIGH);
+  delay(1000); // Delay for 1 second
+
+  // Turn the LED off
+  digitalWrite(ledPin, LOW);
+  delay(1000); // Delay for 1 second
+}
